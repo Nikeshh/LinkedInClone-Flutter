@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'nav_bar_web.dart';
+import 'package:linkedinclone/screen/pages/web/body_content.dart';
 
 class WebScreen extends StatelessWidget {
   @override
@@ -8,6 +9,9 @@ class WebScreen extends StatelessWidget {
       body: Column(
         children: [
           NavBarWeb(),
+          Expanded(
+            child: BodyContent(),
+          )
         ],
       ),
     );
