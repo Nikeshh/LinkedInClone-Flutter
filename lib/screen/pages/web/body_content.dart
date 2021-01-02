@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:responsive_builder/responsive_builder.dart';
 import 'package:linkedinclone/screen/pages/web/widgets/left_side_widget.dart';
+import 'package:linkedinclone/screen/pages/web/widgets/right_side_widget.dart';
 import 'package:linkedinclone/screen/pages/web/widgets/center_widget.dart';
 
 class BodyContent extends StatelessWidget {
@@ -34,6 +35,16 @@ class BodyContent extends StatelessWidget {
                     ),
                   ),
                 ),
+                Positioned(
+                  child: Align(
+                    alignment: Alignment.topRight,
+                    child: SingleChildScrollView(
+                      child: RightSideWidget(
+                        sizingInformation: sizingInformation,
+                      ),
+                    ),
+                  ),
+                )
               ],
             ),
           ),
