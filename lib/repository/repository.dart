@@ -98,9 +98,9 @@ class FakeRepository{
     ),
   ];
   static final userProfile = UserModel(
-      headline: "Android & IOS Mobile Application flutter developer | Freelancer",
+      headline: "nikeshhbaskaran01@gmail.com",
       profileUrl: "assets/profile.jpg",
-      name: "Amir Khan",
+      name: "Nikeshh Baskaran",
       connections: "1,837",
       viewProfile: "300"
   );
@@ -122,7 +122,7 @@ class FakeRepository{
 
   static final List<CompanyModel> companyListData=[
     CompanyModel(
-      name: "Pakistan Jobs",
+      name: "Jobs",
       description: "We help to Build Your Career",
       profileUrl: "",
     ),
