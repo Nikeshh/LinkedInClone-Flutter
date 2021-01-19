@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'file:///D:/LEADUPGLOBAL/FlutterProjects/InProgress/LinkedInClone-Flutter/lib/screen/pages/tablet/widgets/nav_bar_tablet_button.dart';
+import 'package:linkedinclone/screen/pages/tablet/widgets/nav_bar_tablet_button.dart';
 import 'package:linkedinclone/screen/widgets/style/theme.dart';
 import 'package:responsive_builder/responsive_builder.dart';
 

@@ -3,7 +3,7 @@ import 'package:flutter/rendering.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:linkedinclone/repository/repository.dart';
 import 'package:linkedinclone/screen/pages/mobile/widgets/common.dart';
-import 'file:///D:/LEADUPGLOBAL/FlutterProjects/InProgress/LinkedInClone-Flutter/lib/screen/pages/mobile/widgets/custom_appBar.dart';
+import 'package:linkedinclone/screen/pages/mobile/widgets/custom_appBar.dart';
 import 'package:linkedinclone/screen/pages/web/widgets/common.dart';
 import 'package:linkedinclone/screen/widgets/style/theme.dart';
 import 'package:responsive_builder/responsive_builder.dart';
